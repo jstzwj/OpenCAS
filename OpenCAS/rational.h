@@ -6,18 +6,19 @@
 
 namespace opencas
 {
-	class Integer : public Number
+	class Rational : public Number
 	{
 	public:
-		Integer() {}
+		Rational() {}
 
 
 		virtual std::string to_string()
 		{
-			return std::to_string(num);
+			return std::to_string(n) + "/" + std::to_string(d);
 		}
 	private:
-		std::int32_t num;
+		std::int32_t n;
+		std::int32_t d;
 	};
 }
 

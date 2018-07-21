@@ -8,6 +8,12 @@ namespace opencas
 	{
 	public:
 		Real() {}
+		virtual std::string to_string()
+		{
+			return std::to_string(num);
+		}
+	private:
+		float num;
 	};
 }
 

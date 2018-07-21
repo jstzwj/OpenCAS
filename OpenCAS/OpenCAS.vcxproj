@@ -118,6 +118,7 @@
     <ClInclude Include="number.h" />
     <ClInclude Include="opencas_config.h" />
     <ClInclude Include="opencas_type.h" />
+    <ClInclude Include="rational.h" />
     <ClInclude Include="real.h" />
     <ClInclude Include="symbol.h" />
   </ItemGroup>

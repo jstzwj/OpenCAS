@@ -42,6 +42,9 @@
     <ClInclude Include="complex.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="rational.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="number.cpp">
