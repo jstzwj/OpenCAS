@@ -15,12 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Node.h">
+    <ClInclude Include="opencas_type.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="opencas_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="real.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="integer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="symbol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="complex.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Node.cpp">
+    <ClCompile Include="number.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="node.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

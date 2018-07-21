@@ -1,8 +1,12 @@
 #pragma once
-class Node
+namespace opencas
 {
-public:
-	Node();
-	virtual ~Node();
-};
+	class Node
+	{
+	public:
+		Node();
+		virtual ~Node();
+	};
+}
+
 

@@ -1,12 +1,15 @@
-#include "Node.h"
+#include "node.h"
 
 
-
-Node::Node()
+namespace opencas
 {
-}
+	Node::Node()
+	{
+	}
 
 
-Node::~Node()
-{
+	Node::~Node()
+	{
+	}
+
 }

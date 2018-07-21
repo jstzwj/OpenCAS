@@ -111,10 +111,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Node.h" />
+    <ClInclude Include="complex.h" />
+    <ClInclude Include="function.h" />
+    <ClInclude Include="integer.h" />
+    <ClInclude Include="node.h" />
+    <ClInclude Include="number.h" />
+    <ClInclude Include="opencas_config.h" />
+    <ClInclude Include="opencas_type.h" />
+    <ClInclude Include="real.h" />
+    <ClInclude Include="symbol.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="node.cpp" />
+    <ClCompile Include="number.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
