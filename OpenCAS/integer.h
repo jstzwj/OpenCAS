@@ -18,7 +18,7 @@ namespace opencas
 			
 		}
 	private:
-		std::vector<std::int32_t> num;
+		std::int32_t num;
 	};
 }
 
