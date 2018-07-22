@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include <vector>
 
 #include "number.h"
 
@@ -14,10 +15,10 @@ namespace opencas
 
 		virtual std::string to_string()
 		{
-			return std::to_string(num);
+			
 		}
 	private:
-		std::int32_t num;
+		std::vector<std::int32_t> num;
 	};
 }
 

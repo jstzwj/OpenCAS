@@ -115,6 +115,8 @@
     <ClInclude Include="function.h" />
     <ClInclude Include="infinity.h" />
     <ClInclude Include="integer.h" />
+    <ClInclude Include="multiprecision\integer.hpp" />
+    <ClInclude Include="multiprecision\rational.hpp" />
     <ClInclude Include="node.h" />
     <ClInclude Include="number.h" />
     <ClInclude Include="opencas_config.h" />
@@ -124,6 +126,7 @@
     <ClInclude Include="symbol.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="node.cpp" />
     <ClCompile Include="number.cpp" />
   </ItemGroup>
