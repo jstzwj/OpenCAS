@@ -4,6 +4,7 @@
 #include <vector>
 
 #include "number.h"
+#include"opencas_type.h"
 
 namespace opencas
 {
@@ -18,7 +19,7 @@ namespace opencas
 			
 		}
 	private:
-		std::int32_t num;
+		integer_class num;
 	};
 }
 
