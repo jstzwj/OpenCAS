@@ -45,6 +45,9 @@
     <ClInclude Include="rational.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="infinity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="number.cpp">

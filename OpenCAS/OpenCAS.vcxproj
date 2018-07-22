@@ -113,6 +113,7 @@
   <ItemGroup>
     <ClInclude Include="complex.h" />
     <ClInclude Include="function.h" />
+    <ClInclude Include="infinity.h" />
     <ClInclude Include="integer.h" />
     <ClInclude Include="node.h" />
     <ClInclude Include="number.h" />
