@@ -111,10 +111,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="add.h" />
     <ClInclude Include="complex.h" />
     <ClInclude Include="function.h" />
     <ClInclude Include="infinity.h" />
     <ClInclude Include="integer.h" />
+    <ClInclude Include="mul.h" />
     <ClInclude Include="multiprecision\integer.hpp" />
     <ClInclude Include="multiprecision\rational.hpp" />
     <ClInclude Include="node.h" />

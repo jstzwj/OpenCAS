@@ -57,6 +57,12 @@
     <ClInclude Include="multiprecision\integer.hpp">
       <Filter>头文件\multiprecision</Filter>
     </ClInclude>
+    <ClInclude Include="add.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mul.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="number.cpp">
