@@ -3,9 +3,9 @@
 
 #include <vector>
 
-#include "opencas_type.h"
-#include "number.h"
-#include "rational.h"
+#include <opencas/opencas_type.h>
+#include <opencas/number.h>
+#include <opencas/rational.h>
 
 namespace opencas
 {

@@ -1,14 +1,13 @@
 #include <iostream>
 #include <string>
 
-#include "multiprecision\integer.hpp"
+#include <opencas/multiprecision/integer.hpp>
 
 int main()
 {
-	opencas::multiprecision::unsigned_integer i(11);
-	opencas::multiprecision::unsigned_integer j(2400000000000);
-	i.add(j);
-	std::cout << i.to_string();
-	system("pause");
+	opencas::multiprecision::Integer i(11);
+	opencas::multiprecision::Integer j(2400000000000);
+
+	std::cout << i+j << std::endl;
 	return 0;
 }

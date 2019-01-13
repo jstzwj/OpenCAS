@@ -2,6 +2,7 @@
 
 #include <memory>
 #include <cstdint>
+#include <opencas/multiprecision/integer.hpp>
 
 
 namespace opencas
@@ -12,5 +13,5 @@ namespace opencas
 	template<class T>
 	using ptr = std::unique_ptr<T>;
 
-	using integer_class = std::int32_t;
+	using IntegerType = multiprecision::Integer;
 }

@@ -4,7 +4,7 @@
 #include <vector>
 
 #include "number.h"
-#include"opencas_type.h"
+#include <opencas/opencas_type.h>
 
 namespace opencas
 {
@@ -16,10 +16,9 @@ namespace opencas
 
 		virtual std::string to_string()
 		{
-			
 		}
 	private:
-		integer_class num;
+		IntegerType num;
 	};
 }
 
