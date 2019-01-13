@@ -1,4 +1,4 @@
-#include "number.h"
+#include <opencas/number.h>
 
 
 namespace opencas

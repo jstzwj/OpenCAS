@@ -1,4 +1,4 @@
-#include "node.h"
+#include <opencas/node.h>
 
 
 namespace opencas
